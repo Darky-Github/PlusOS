@@ -30,4 +30,7 @@ Enjoy!
 ## If using SSH
 ```bash
 git clone git@github.com:Darky-Github/PlusOS.git
+cd PlusOS
+docker build -t plusos .
+docker run -it --name plus_os plusos
 ```
