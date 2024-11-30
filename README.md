@@ -4,6 +4,9 @@ The terminal-based Docker container that can be used for Programming and more! A
 ## A better programming experience
 ProgramOS is just too hard and comfusing so we created PlusOS. 
 
+## Devuser Password
+The password for devuser is password
+
 ## New features
 - Based on Ubuntu
 - Many programming languages preinstalled
