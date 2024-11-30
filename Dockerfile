@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:devel
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -15,6 +15,14 @@ RUN apt-get update && apt-get install -y \
     neovim \
     nano \
     emacs \
+    links \
+    w3m \
+    mutt \
+    rclone \
+    rainbowstream
+    weechat \
+    ffmeg \
+    yt-dlp \
     kakoune && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
