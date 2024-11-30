@@ -21,7 +21,7 @@ The password for devuser is password
 ```bash
 git clone https://github.com/Darky-Github/PlusOS.git
 cd PlusOS
-docker build plusos .
+docker build -t plusos .
 docker run -it --name plus_os plusos
 ```
 That's it!
