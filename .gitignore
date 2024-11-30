@@ -1,0 +1,61 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.bower_components/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker-related
+*.pid
+*.sock
+.env
+.env.*
+docker-compose.override.yml
+
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Editor/IDE-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Operating System files
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Output files
+*.out
+*.exe
+*.o
+*.class
+*.jar
+
+# Builds and caches
+build/
+dist/
+.cache/
+
+# Generated files
+*.gz
+*.tar
+*.zip
+*.7z
+
+# Test output
+coverage/
+*.lcov
