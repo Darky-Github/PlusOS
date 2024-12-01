@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
     rclone \
     rainbowstream
     weechat \
-    ffmeg \
+    ffmpeg \
     yt-dlp \
     kakoune && \
     apt-get clean && \
