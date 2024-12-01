@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
     w3m \
     mutt \
     rclone \
-    rainbowstream
+    rainbowstream \
     weechat \
     ffmpeg \
     yt-dlp \
