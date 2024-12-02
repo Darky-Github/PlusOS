@@ -14,7 +14,6 @@ The password for devuser is password
 - Faster
 - Sudo preinstalled with Sudouser other than Root
 - changing to Root made easy
-- VS Code now available
 - Use Vim, Neovim, Nano and more!
 
 ## Installation
